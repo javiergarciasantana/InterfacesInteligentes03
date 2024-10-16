@@ -33,7 +33,7 @@
 
 ### 5. Adapt the movement in Exercise 4 so that it is proportional to the time elapsed during frame generation.
 **Help:** Use the value `Time.deltaTime` to scale the distance the object travels between frames.  
-**File:** `CubeMovingStats.cs` (modified version)  
+**File:** `CubeKeyControl.cs` (modified version)  
 **Description:** This script adjusts movement calculations to be frame-rate independent by using `Time.deltaTime`, ensuring smooth movement across different hardware.
 
 ---
