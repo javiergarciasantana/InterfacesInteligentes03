@@ -78,4 +78,11 @@
 
 ---
 
+### 12. Add a cylinder of a different color to the scene and configure it as a physical object. Choose a set of keys to control its movement in the scene and program it to move towards the sphere. Test different configurations of the sphere with a mass 10 times greater.
+**Help:** The script should use a `Rigidbody` to control the movement and apply forces.  
+**File:** `CylinderKeyControl.cs`  
+**Description:** This script enables the movement of a cylinder using the arrow keys. It is set up as a physical object with a `Rigidbody`, allowing for realistic physics interactions. The cylinder is programmed to rotate and face the target object (sphere) while moving in its direction. The script calculates the necessary direction and rotation to guide the cylinder toward the sphere effectively.
+
+---
+
 This array of scripts provide a comprehensive demonstration of handling user input, object movement, and collision detection in Unity. Adjusting the configurations and scripts as outlined will help illustrate the principles of game development and object interaction.
