@@ -70,12 +70,14 @@
 ### 9. Configure the cylinder as a physical object. When the cube or sphere collides with it, a message should be shown in the console with the tag of the object that collided (OnCollisionXXX).
 **File:** `CollisionDetector.cs`  
 **Description:** This script handles collision detection for the cylinder, logging messages in the console whenever the cube or sphere collides with it.
+![ej9](https://github.com/user-attachments/assets/90c22a41-26b6-465b-ac28-1be9ebef2e62)
 
 ---
 
 ### 10. Configure the cube as a kinematic object and the sphere as a physical object. Adapt the scripts from Exercise 9 to achieve the same behavior.
 **File:** `CollisionDetector.cs` (modified)  
 **Description:** This modified script maintains collision detection behavior while adjusting the properties of the cube and sphere to demonstrate different physical interactions.
+![ej10](https://github.com/user-attachments/assets/1a8a0c5b-8af7-464d-8bff-b2db1cf3e8d2)
 
 ---
 
