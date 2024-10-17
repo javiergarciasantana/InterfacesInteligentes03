@@ -77,7 +77,7 @@
 ### 10. Configure the cube as a kinematic object and the sphere as a physical object. Adapt the scripts from Exercise 9 to achieve the same behavior.
 **File:** `CollisionDetector.cs` (modified)  
 **Description:** This modified script maintains collision detection behavior while adjusting the properties of the cube and sphere to demonstrate different physical interactions.
-![ej10](https://github.com/user-attachments/assets/1a8a0c5b-8af7-464d-8bff-b2db1cf3e8d2)
+![ej10](https://github.com/user-attachments/assets/ac52e07a-d94d-4298-b9e6-e25d5dd965dc)
 
 ---
 
@@ -85,6 +85,8 @@
 **Help:** In the previous exercises, use the `OnCollisionXXX` or `OnTriggerXXX` events according to the configuration of the object detecting the collision.  
 **File:** `TriggerDetector.cs`  
 **Description:** This script allows the cylinder to act as a trigger, logging messages when the cube or sphere enters its trigger zone, demonstrating a different form of collision detection.
+![ej11](https://github.com/user-attachments/assets/4374b219-82c2-4748-a48f-7e926278b6a0)
+
 
 ---
 
@@ -92,6 +94,7 @@
 **Help:** The script should use a `Rigidbody` to control the movement and apply forces.  
 **File:** `CylinderKeyControl.cs`  
 **Description:** This script enables the movement of a cylinder using the arrow keys. It is set up as a physical object with a `Rigidbody`, allowing for realistic physics interactions. The cylinder is programmed to rotate and face the target object (sphere) while moving in its direction. The script calculates the necessary direction and rotation to guide the cylinder toward the sphere effectively.
+![ej12](https://github.com/user-attachments/assets/1fda1d9c-c401-4bb1-bbf5-943273a30281)
 
 ---
 
